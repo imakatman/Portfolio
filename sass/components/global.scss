@@ -57,9 +57,17 @@ i {
 #sm-container {
     position: absolute;
     //  vertically aligned
-    bottom: 11vh;
-    right: 1.5vw;
+//    bottom: 11vh;
+//    right: 1.5vw;
     //  hor aligned
     bottom: 4.5vh;
     right: 5vw;
+    a {
+        text-decoration: none;
+    }
+    a:hover{
+        opacity: 0.5;
+        cursor: pointer;
+        transition: all .3s ease;
+    }
 }

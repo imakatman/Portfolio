@@ -33,10 +33,14 @@ i {
 */
 #sm-container {
   position: absolute;
-  bottom: 11vh;
-  right: 1.5vw;
   bottom: 4.5vh;
   right: 5vw; }
+  #sm-container a {
+    text-decoration: none; }
+  #sm-container a:hover {
+    opacity: 0.5;
+    cursor: pointer;
+    transition: all .3s ease; }
 
                 /**
 * PARTICLES
@@ -79,9 +83,6 @@ i {
       color: #fff;
       position: relative;
       z-index: 99; }
-    #i-container #welcome #welcome-container h1:hover {
-      color: #868585;
-      cursor: pointer; }
     #i-container #welcome #welcome-container h2 {
       -webkit-animation: latefade 3.5s ease-in-out;
       -moz-animation: latefade 3.5s ease-in-out;
