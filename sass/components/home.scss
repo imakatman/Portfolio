@@ -1,0 +1,63 @@
+                /**
+* PARTICLES
+*/
+
+#particles-js {
+position: absolute;
+width: 40vw;
+height: 75vh;
+top: 0;
+bottom: 0;
+left: 20vw;
+margin: auto;
+z-index: 9;
+}
+
+/**
+* WELCOME SECTION
+*/
+#i-container {
+    z-index: 8;
+    background: $dom2_accent;
+    -webkit-animation: fadein 1.5s ease-in-out;
+    -moz-animation: fadein 1.5s ease-in-out;
+    animation: fadein 1.5s ease;
+    #welcome {
+        #welcome-container {
+            width: 50vw;
+            text-align: left;
+            vertical-align: middle;
+            height: 80vh;
+            display: table-cell;
+            padding-left: 37vw;
+            padding-top: 10vh;
+            h1 {
+                -webkit-animation: latefade 2.5s ease-in-out;
+                -moz-animation: latefade 2.5s ease-in-out;
+                animation: latefade 2.5s ease;
+                display: block;
+                letter-spacing: 3px;
+                font-size: 71px;
+                font-family: 'HelveticaNeueLTStd-Bd', sans-serif !important;
+                color: #fff;
+                position: relative;
+                z-index: 99;
+            }
+            h1:hover {
+                color: rgba(134, 133, 133, 1);
+                cursor: pointer;
+            }
+            h2 {
+                -webkit-animation: latefade 3.5s ease-in-out;
+                -moz-animation: latefade 3.5s ease-in-out;
+                animation: latefade 3.5s ease-in-out;
+                display: block;
+                letter-spacing: 1.5px;
+                color: #fff;
+                font-size: 27px;
+                font-family: "source-code-pro", sans-serif;
+                z-index: 99;
+            }
+        }
+    }
+}

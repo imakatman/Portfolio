@@ -1,0 +1,50 @@
+/*
+DASH BOTTOM
+
+#welcome span {
+    -webkit-animation: slidedownfade 3.3s ease-in-out;
+    -moz-animation: slidedownfade 3.3s ease-in-out;
+    animation: slidedownfade 3.3s ease-in-out;
+    text-transform: uppercase;
+    font-family: 'HelveticaNeueLTStd-Bd', sans-serif !important;
+    position: relative;
+}
+
+#welcome span.dash-bottom {
+    -webkit-animation: lineslidedownfade 3.4s ease-in-out;
+    -moz-animation: lineslidedownfade 3.4s ease-in-out;
+    animation: lineslidedownfade 3.4s ease-in-out;
+}
+
+span.dash-bottom {
+    height: 90%;
+    width: 4px;
+    border-right: 4px dashed #fdfdfe;
+    display: block;
+    position: absolute !important;
+    z-index: 1;
+    left: 50%;
+    margin-left: -2px;
+}
+*/
+
+
+/*BACKGROUNDS*/
+
+
+/*
+.bg1 {
+    background: url("bg.jpeg");
+    background-size: cover;
+}
+
+.blur {
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    -o-filter: blur(5px);
+    -ms-filter: blur(5px);
+    filter: blur(5px);
+    visibility: hidden;
+    opacity: 0;
+}
+*/

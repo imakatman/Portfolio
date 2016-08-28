@@ -1,0 +1,65 @@
+// ***
+// ** Colors
+// ***
+
+$dom_accent: #fdacab;
+$dom2_accent: #bee1f4;
+
+$sub2_accemt: #f2f9fc;
+
+// ***
+// ** End Colors
+// ***
+
+html.scrollMagic {
+    padding-top: 0 !important;
+}
+
+body {
+    margin: 0;
+    background: $dom_accent;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+    margin: 5px;
+}
+
+i {
+    font-family: FontAwesome;
+    color: $sub2_accemt;
+}
+
+i {
+    font-size: 22px !important;
+    display: inline-block !important;
+    padding: 10px;
+}
+
+
+/**
+* LAYOUT
+*/
+
+#i-container {
+    margin: 5%;
+    background: #fff;
+}
+
+
+/**
+* SOCIAL MEDIA CONTAINER
+*/
+
+#sm-container {
+    position: absolute;
+    //  vertically aligned
+    bottom: 11vh;
+    right: 1.5vw;
+    //  hor aligned
+    bottom: 4.5vh;
+    right: 5vw;
+}
