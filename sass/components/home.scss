@@ -1,21 +1,21 @@
-                /**
+/**
 * PARTICLES
 */
 
 #particles-js {
-position: absolute;
-width: 40vw;
-height: 75vh;
-top: 0;
-bottom: 0;
-left: 20vw;
-margin: auto;
-z-index: 9;
+    position: absolute;
+    width: 40vw;
+    height: 65vh;
+    top: 0;
+    bottom: 0;
+    left: 20vw;
+    margin: auto;
+    z-index: 9;
 }
-
 /**
 * WELCOME SECTION
 */
+
 #i-container {
     z-index: 8;
     background: $dom2_accent;
@@ -27,7 +27,7 @@ z-index: 9;
             width: 50vw;
             text-align: left;
             vertical-align: middle;
-            height: 80vh;
+            height: 70vh;
             display: table-cell;
             padding-left: 37vw;
             padding-top: 10vh;
@@ -42,21 +42,29 @@ z-index: 9;
                 color: #fff;
                 position: relative;
                 z-index: 99;
+                #one {
+                    letter-spacing: 10px;
+                }
+                #two {
+                    letter-spacing: 18px;
+                }
             }
             h1:hover {
-//                color: rgba(134, 133, 133, 1);
-//                cursor: pointer;
+                //                color: rgba(134, 133, 133, 1);
+                //                cursor: pointer;
             }
             h2 {
                 -webkit-animation: latefade 3.5s ease-in-out;
                 -moz-animation: latefade 3.5s ease-in-out;
                 animation: latefade 3.5s ease-in-out;
                 display: block;
-                letter-spacing: 1.5px;
+                letter-spacing: 4px;
                 color: #fff;
                 font-size: 27px;
                 font-family: "source-code-pro", sans-serif;
+                position: relative;
                 z-index: 99;
+                padding-left: 6px;
             }
         }
     }

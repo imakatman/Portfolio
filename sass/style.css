@@ -26,7 +26,8 @@ i {
 */
 #i-container {
   margin: 5%;
-  background: #fff; }
+  background: #fff;
+  height: 80vh; }
 
 /**
 * SOCIAL MEDIA CONTAINER
@@ -42,13 +43,13 @@ i {
     cursor: pointer;
     transition: all .3s ease; }
 
-                /**
+/**
 * PARTICLES
 */
 #particles-js {
   position: absolute;
   width: 40vw;
-  height: 75vh;
+  height: 65vh;
   top: 0;
   bottom: 0;
   left: 20vw;
@@ -68,7 +69,7 @@ i {
     width: 50vw;
     text-align: left;
     vertical-align: middle;
-    height: 80vh;
+    height: 70vh;
     display: table-cell;
     padding-left: 37vw;
     padding-top: 10vh; }
@@ -83,16 +84,22 @@ i {
       color: #fff;
       position: relative;
       z-index: 99; }
+      #i-container #welcome #welcome-container h1 #one {
+        letter-spacing: 10px; }
+      #i-container #welcome #welcome-container h1 #two {
+        letter-spacing: 18px; }
     #i-container #welcome #welcome-container h2 {
       -webkit-animation: latefade 3.5s ease-in-out;
       -moz-animation: latefade 3.5s ease-in-out;
       animation: latefade 3.5s ease-in-out;
       display: block;
-      letter-spacing: 1.5px;
+      letter-spacing: 4px;
       color: #fff;
       font-size: 27px;
       font-family: "source-code-pro", sans-serif;
-      z-index: 99; }
+      position: relative;
+      z-index: 99;
+      padding-left: 6px; }
 
 /*KEYFRAMES*/
 @keyframes fadein {
