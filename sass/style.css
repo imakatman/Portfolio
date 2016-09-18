@@ -26,18 +26,19 @@ i {
 */
 #i-container {
   margin: 5%;
-  background: #fff;
-  height: 80vh; }
+  height: 81vh;
+  width: 90vw; }
 
 /**
 * SOCIAL MEDIA CONTAINER
 */
 #sm-container {
   position: absolute;
-  bottom: 4.5vh;
-  right: 5vw; }
+  bottom: 11vh;
+  right: 1.5vw; }
   #sm-container a {
-    text-decoration: none; }
+    text-decoration: none;
+    display: inherit; }
   #sm-container a:hover {
     opacity: 0.5;
     cursor: pointer;
@@ -69,7 +70,7 @@ i {
     width: 50vw;
     text-align: left;
     vertical-align: middle;
-    height: 70vh;
+    height: 81vh;
     display: table-cell;
     padding-left: 37vw;
     padding-top: 10vh; }
@@ -100,6 +101,14 @@ i {
       position: relative;
       z-index: 99;
       padding-left: 6px; }
+
+.frame {
+  width: 90vw;
+  height: 81vh;
+  position: absolute;
+  top: 0;
+  background: transparent;
+  border: 5vw solid rgba(253, 172, 171, 0.8); }
 
 /*KEYFRAMES*/
 @keyframes fadein {

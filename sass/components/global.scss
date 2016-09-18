@@ -1,16 +1,12 @@
 // ***
 // ** Colors
 // ***
-
 $dom_accent: #fdacab;
 $dom2_accent: #bee1f4;
-
 $sub2_accemt: #f2f9fc;
-
 // ***
 // ** End Colors
 // ***
-
 html.scrollMagic {
     padding-top: 0 !important;
 }
@@ -46,9 +42,10 @@ i {
 
 #i-container {
     margin: 5%;
-    background: #fff;
-    height: 80vh;
+    height: 81vh;
+    width: 90vw;
 }
+
 
 /**
 * SOCIAL MEDIA CONTAINER
@@ -56,16 +53,17 @@ i {
 
 #sm-container {
     position: absolute;
-    //  vertically aligned
-//    bottom: 11vh;
-//    right: 1.5vw;
-    //  hor aligned
-    bottom: 4.5vh;
-    right: 5vw;
+    //  ** vertically aligned
+    bottom: 11vh;
+    right: 1.5vw;
+    //  ** hor aligned
+    //    bottom: 3.0vh;
+    //    right: 5vw;
     a {
         text-decoration: none;
+        display: inherit;
     }
-    a:hover{
+    a:hover {
         opacity: 0.5;
         cursor: pointer;
         transition: all .3s ease;

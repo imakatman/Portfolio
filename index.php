@@ -28,9 +28,16 @@
     <div id="i-container">
         <section id="welcome">
             <div id="welcome-container">
-                <h1> <span id="one">HOPE</span> <span id="two">KIM</span> </h1>
-                <h2> Web Developer </h2>
-                <!--                <span class="dash-bottom"></span> --></div>
+                <h1>
+                    <span id="one">HOPE</span>
+                    <span id="two">KIM</span>
+                    </h1>
+                    <h2> Web Developer </h2>
+                    <!--<span class="dash-bottom"></span> -->
+                </div>
+        </section>
+        <section id="about">
+
         </section>
     </div>
     <!--SOCIAL MEDIA CONTAINER-->
@@ -39,19 +46,7 @@
         <a href="https://www.linkedin.com/in/hopekim" target="_blank"> <i class="fa fa-linkedin" aria-hidden="true"></i> </a>
         <a href="https://twitter.com/hopekim511" target="_blank"> <i class="fa fa-twitter" aria-hidden="true"></i> </a>
     </div>
-    <!--    ** JS FILES-->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-    <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
-    <script src="particles/particles.min.js"></script>
-    <script src="particles/particlesjs-config.json"></script>
-    <script type="text/javascript" src="scroll_magic/animation.gsap.min.js"></script>
-    <script type="text/javascript" src="scroll_magic/debug.addindicators.min.js"></script>
-    <script type="text/javascript" src="scroll_magic/animation.velocity.min.js"></script>
-    <script type="text/javascript" src="scroll_magic/highlight.pack.js"></script>
-    <script type="text/javascript" src="scroll_magic/scrollmagic.min.js"></script>
-    <script type="text/javascript" src="scroll_magic/tweenmax.min.js"></script>
-    <script type="text/javascript" src="scroll_magic/velocity.min.js"></script>
-    <script type="text/javascript" src="script.js"></script>
+    <?php include 'include/script_foot.php'; ?>
 </body>
 
 </html>

@@ -12,6 +12,8 @@
     margin: auto;
     z-index: 9;
 }
+
+
 /**
 * WELCOME SECTION
 */
@@ -27,7 +29,7 @@
             width: 50vw;
             text-align: left;
             vertical-align: middle;
-            height: 70vh;
+            height: 81vh;
             display: table-cell;
             padding-left: 37vw;
             padding-top: 10vh;
@@ -68,4 +70,13 @@
             }
         }
     }
+}
+
+.frame {
+    width: 90vw;
+    height: 81vh;
+    position: absolute;
+    top: 0;
+    background: transparent;
+    border: 5vw solid rgba(253, 172, 171, 0.8);
 }
